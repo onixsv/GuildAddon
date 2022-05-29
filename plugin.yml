@@ -1,0 +1,11 @@
+name: GuildAddon
+author: alvin0319
+main: alvin0319\GuildAddon\GuildAddon
+version: 1.0.0
+api: 4.0.0
+
+depend: [ GuildAPI, LevelAPI ]
+
+permissions:
+  guildaddon.command.use:
+    default: true
